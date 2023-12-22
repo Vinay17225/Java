@@ -1,0 +1,19 @@
+package com.bridgelabz.uc1;
+
+import java.util.Random;
+
+public class EmpPresentAbsent {
+
+	public static void main(String[] args) {
+		int isAbsent=0;
+		Random random= new Random();
+		int randomNumber = random.nextInt(10);
+		if(randomNumber==isAbsent) {
+			System.out.println("Employee is Absent");
+		}
+		else {
+			System.out.println("Employee is Persent");
+		}
+		
+
+	}
